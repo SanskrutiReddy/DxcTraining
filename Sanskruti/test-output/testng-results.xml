@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-21T09:25:17Z" name="Suite" finished-at="2021-05-21T09:25:44Z" duration-ms="27260">
+    <groups>
+    </groups>
+    <test started-at="2021-05-21T09:25:17Z" name="Test" finished-at="2021-05-21T09:25:44Z" duration-ms="27260">
+      <class name="StepDefinition.OfferTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:StepDefinition.OfferTest@3ed03652]" started-at="2021-05-21T09:25:24Z" name="OpenBrowser" finished-at="2021-05-21T09:25:27Z" duration-ms="3645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="navigation()[pri:0, instance:StepDefinition.OfferTest@3ed03652]" started-at="2021-05-21T09:25:27Z" name="navigation" finished-at="2021-05-21T09:25:30Z" duration-ms="2920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:StepDefinition.OfferTest@3ed03652]" started-at="2021-05-21T09:25:30Z" name="closeBrowser" finished-at="2021-05-21T09:25:31Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- StepDefinition.OfferTest -->
+      <class name="StepDefinition.PackageTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:StepDefinition.PackageTest@4aedaf61]" started-at="2021-05-21T09:25:31Z" name="OpenBrowser" finished-at="2021-05-21T09:25:37Z" duration-ms="6813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="navigation()[pri:0, instance:StepDefinition.PackageTest@4aedaf61]" started-at="2021-05-21T09:25:37Z" name="navigation" finished-at="2021-05-21T09:25:40Z" duration-ms="2639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:StepDefinition.PackageTest@4aedaf61]" started-at="2021-05-21T09:25:40Z" name="closeBrowser" finished-at="2021-05-21T09:25:44Z" duration-ms="4483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- StepDefinition.PackageTest -->
+      <class name="StepDefinition.BrowserOpenTest">
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:StepDefinition.BrowserOpenTest@2f508f3c]" started-at="2021-05-21T09:25:17Z" name="OpenBrowser" finished-at="2021-05-21T09:25:20Z" duration-ms="3046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="navigation()[pri:0, instance:StepDefinition.BrowserOpenTest@2f508f3c]" started-at="2021-05-21T09:25:20Z" name="navigation" finished-at="2021-05-21T09:25:23Z" duration-ms="2784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:StepDefinition.BrowserOpenTest@2f508f3c]" started-at="2021-05-21T09:25:23Z" name="closeBrowser" finished-at="2021-05-21T09:25:24Z" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- StepDefinition.BrowserOpenTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
