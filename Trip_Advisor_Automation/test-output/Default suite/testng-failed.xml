@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.tripadvisor.tests.HolidayHomesTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verifyElevatorFilterAppliedTest"/>
+          <include name="verifyCheckOutSelectedTest"/>
+          <include name="verifyBookNowTest"/>
+          <include name="verifyPastDateNotSelectedTest"/>
+          <include name="verifyCheckInSelectedTest"/>
+          <include name="bookNowButtonTest"/>
+          <include name="verifySearchLocationTitleTest"/>
+          <include name="showPricesButtonTest"/>
+          <include name="holidayHomesTest"/>
+          <include name="clearAllFiltersTest"/>
+          <include name="setUp"/>
+          <include name="verifyCheckInOutFilterTest"/>
+          <include name="verifyHotelGuestsTest"/>
+          <include name="invalidLocationTest"/>
+          <include name="verifyHotelCheckInTest"/>
+          <include name="verifyHotelElevatorTest"/>
+          <include name="verifyHotelCheckOutTest"/>
+        </methods>
+      </class> <!-- com.tripadvisor.tests.HolidayHomesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

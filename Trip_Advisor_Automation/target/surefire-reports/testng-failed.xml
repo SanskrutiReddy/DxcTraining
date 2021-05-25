@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.tripadvisor.tests.CruisesTest">
+        <methods>
+          <include name="verifyCruiseIsSelectedTest"/>
+          <include name="verifyShipDropDownNotActivatedTest"/>
+          <include name="cruiseDetailsTest"/>
+          <include name="setUp"/>
+          <include name="verifySearchNotActivatedTest"/>
+          <include name="afterTest"/>
+          <include name="verifyCruisesPageTitleTest"/>
+        </methods>
+      </class> <!-- com.tripadvisor.tests.CruisesTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

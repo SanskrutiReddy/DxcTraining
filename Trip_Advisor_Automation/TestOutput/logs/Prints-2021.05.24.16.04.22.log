@@ -1,0 +1,134 @@
+2021-05-24 16:04:23.020 [main] DEBUG com.tripadvisor.base.BaseUI - Opening browser
+2021-05-24 16:04:25.127 [main] INFO  com.tripadvisor.base.BaseUI - Opened browser
+2021-05-24 16:04:25.128 [main] DEBUG com.tripadvisor.base.BaseUI - Opening URL
+2021-05-24 16:04:27.796 [main] INFO  com.tripadvisor.base.BaseUI - Opened URL
+2021-05-24 16:04:27.825 [main] DEBUG com.tripadvisor.pages.HomePage - Clicking on Holiday Homes button
+2021-05-24 16:04:34.597 [main] INFO  com.tripadvisor.pages.HomePage - Clicked on Holiday Homes button
+2021-05-24 16:04:34.597 [main] DEBUG com.tripadvisor.pages.HomePage - Searching for location: Nairobi
+2021-05-24 16:04:37.198 [main] INFO  com.tripadvisor.pages.HomePage - Searched for location: Nairobi
+2021-05-24 16:04:37.234 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Clicking on location
+2021-05-24 16:04:38.553 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Clicked on location
+2021-05-24 16:04:38.563 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Switching to new tab
+2021-05-24 16:04:38.589 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Switched to new tab
+2021-05-24 16:04:41.091 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Clicking on Holiday Homes button
+2021-05-24 16:04:48.182 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Clicked on Holiday Homes button
+2021-05-24 16:04:48.184 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on 'Cruises' button
+2021-05-24 16:04:51.014 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on 'Cruises' button
+2021-05-24 16:04:51.037 [main] DEBUG com.tripadvisor.pages.CruisesPage - Getting title of Cruises page
+2021-05-24 16:04:51.042 [main] INFO  com.tripadvisor.pages.CruisesPage - Title of Cruises page is: Cruises - Cheap Cruise Holidays: 2021 Destinations & Ports - Tripadvisor
+2021-05-24 16:04:53.709 [main] DEBUG com.tripadvisor.base.BaseUI - Opening browser
+2021-05-24 16:04:55.054 [main] INFO  com.tripadvisor.base.BaseUI - Opened browser
+2021-05-24 16:04:55.054 [main] DEBUG com.tripadvisor.base.BaseUI - Opening URL
+2021-05-24 16:04:57.869 [main] INFO  com.tripadvisor.base.BaseUI - Opened URL
+2021-05-24 16:04:57.869 [main] DEBUG com.tripadvisor.pages.HomePage - Clicking on Holiday Homes button
+2021-05-24 16:05:04.960 [main] INFO  com.tripadvisor.pages.HomePage - Clicked on Holiday Homes button
+2021-05-24 16:05:04.960 [main] DEBUG com.tripadvisor.pages.HomePage - Searching for location: dummylocation
+2021-05-24 16:05:07.810 [main] INFO  com.tripadvisor.pages.HomePage - Searched for location: dummylocation
+2021-05-24 16:05:07.821 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Getting invalid location message
+2021-05-24 16:05:08.406 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Invalid location message received
+2021-05-24 16:05:11.494 [main] DEBUG com.tripadvisor.pages.HomePage - Clicking on Holiday Homes button
+2021-05-24 16:05:16.653 [main] INFO  com.tripadvisor.pages.HomePage - Clicked on Holiday Homes button
+2021-05-24 16:05:16.653 [main] DEBUG com.tripadvisor.pages.HomePage - Searching for location: Nairobi
+2021-05-24 16:05:19.383 [main] INFO  com.tripadvisor.pages.HomePage - Searched for location: Nairobi
+2021-05-24 16:05:19.401 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Getting title of location results page
+2021-05-24 16:05:19.451 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Title of location results page is: Search results: Nairobi - Tripadvisor
+2021-05-24 16:05:19.792 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Clicking on location
+2021-05-24 16:05:20.499 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Clicked on location
+2021-05-24 16:05:20.500 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Switching to new tab
+2021-05-24 16:05:20.517 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Switched to new tab
+2021-05-24 16:05:22.789 [main] DEBUG com.tripadvisor.pages.LocationResultsPage - Clicking on Holiday Homes button
+2021-05-24 16:05:31.566 [main] INFO  com.tripadvisor.pages.LocationResultsPage - Clicked on Holiday Homes button
+2021-05-24 16:05:31.591 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on Sort By dropdown
+2021-05-24 16:05:32.396 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on Sort By dropdown
+2021-05-24 16:05:32.396 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Get list of sorting options
+2021-05-24 16:05:32.443 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Got list of sorting options
+2021-05-24 16:05:32.444 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Selecting 'Traveller Rating' option
+2021-05-24 16:05:32.765 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Selected 'Traveller Rating' option
+2021-05-24 16:05:32.768 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on check-in
+2021-05-24 16:05:34.068 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on check-in
+2021-05-24 16:05:34.068 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Getting list of all future dates from calendar
+2021-05-24 16:05:34.109 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Got list of all future dates from calendar
+2021-05-24 16:05:34.110 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on tomorrow's date for check-in
+2021-05-24 16:05:34.336 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on tomorrow's date for check-in
+2021-05-24 16:05:34.337 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - CheckIn date is entered
+2021-05-24 16:05:34.337 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on check-out
+2021-05-24 16:05:35.109 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on check-out
+2021-05-24 16:05:35.109 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Getting list of all future dates from calendar
+2021-05-24 16:05:35.264 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Got list of all future dates from calendar
+2021-05-24 16:05:35.265 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on date five days after tomorrow for check-out
+2021-05-24 16:05:35.571 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on date five days after tomorrow for check-out
+2021-05-24 16:05:35.572 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - CheckOut date is entered
+2021-05-24 16:05:35.573 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on guest button
+2021-05-24 16:05:35.790 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on guest button
+2021-05-24 16:05:35.790 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Setting number of guests to: 4
+2021-05-24 16:05:36.836 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Number of guests is set to 4+
+2021-05-24 16:05:36.837 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on 'More' amenities
+2021-05-24 16:05:37.223 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on 'More' amenities
+2021-05-24 16:05:37.223 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on Elevator/Lift Access option
+2021-05-24 16:05:38.433 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on Elevator/Lift Access option
+2021-05-24 16:05:38.434 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Waiting for hotels to get updated
+2021-05-24 16:05:40.944 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Hotels have been updated
+2021-05-24 16:05:40.944 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Getting names of top 5 hotels
+2021-05-24 16:05:41.431 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Obtained names of top 5 hotels
+2021-05-24 16:05:41.432 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Getting total price of top 5 hotels
+2021-05-24 16:05:42.059 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Obtained total price of top 5 hotels
+2021-05-24 16:05:42.060 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Getting price per night of top 5 hotels
+2021-05-24 16:05:42.523 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Obtained price per night of top 5 hotels
+2021-05-24 16:05:44.303 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on 'Book Now' button
+2021-05-24 16:05:45.165 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on 'Book Now' button
+2021-05-24 16:05:45.165 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Switching to new tab
+2021-05-24 16:05:45.188 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Switched to new tab
+2021-05-24 16:05:45.190 [main] DEBUG com.tripadvisor.pages.HotelInfoPage - Taking screenshot of hotel page
+2021-05-24 16:05:50.127 [main] INFO  com.tripadvisor.pages.HotelInfoPage - Screenshot of hotel info page taken
+2021-05-24 16:05:51.273 [main] DEBUG com.tripadvisor.pages.HotelInfoPage - Getting Hotel Check-in date
+2021-05-24 16:05:51.331 [main] INFO  com.tripadvisor.pages.HotelInfoPage - Got Hotel Check-in date
+2021-05-24 16:05:51.331 [main] DEBUG com.tripadvisor.pages.HotelInfoPage - Checking if check-in date is correct
+2021-05-24 16:05:51.331 [main] INFO  com.tripadvisor.pages.HotelInfoPage - Is Checkin date correct: false
+2021-05-24 16:05:52.419 [main] DEBUG com.tripadvisor.pages.HotelInfoPage - Getting Hotel Check-out date
+2021-05-24 16:05:52.474 [main] INFO  com.tripadvisor.pages.HotelInfoPage - Got Hotel Check-out date
+2021-05-24 16:05:52.474 [main] DEBUG com.tripadvisor.pages.HotelInfoPage - Checking if check-out date is correct
+2021-05-24 16:05:52.474 [main] INFO  com.tripadvisor.pages.HotelInfoPage - Is Check-out date correct: false
+2021-05-24 16:05:53.477 [main] DEBUG com.tripadvisor.pages.HotelInfoPage - Check that number of guests is: 4
+2021-05-24 16:05:53.524 [main] INFO  com.tripadvisor.pages.HotelInfoPage - Number of guests is '4': true
+2021-05-24 16:05:54.477 [main] DEBUG com.tripadvisor.pages.HotelInfoPage - Checking if Elevator/Lift access is available
+2021-05-24 16:05:54.850 [main] INFO  com.tripadvisor.pages.HotelInfoPage - Is Elevator Amenity Present: true
+2021-05-24 16:05:56.052 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on 'Clear Filters' button
+2021-05-24 16:05:56.824 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on 'Clear Filters' button
+2021-05-24 16:05:56.825 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Getting number of applied filters
+2021-05-24 16:05:56.887 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Number of applied filters is: 0
+2021-05-24 16:05:56.888 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Is any filter present: false
+2021-05-24 16:05:57.813 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Checking if 'Show Price' button is present
+2021-05-24 16:05:57.836 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Is 'Show Prices' button present: true
+2021-05-24 16:05:58.866 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on check-in
+2021-05-24 16:06:00.068 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on check-in
+2021-05-24 16:06:00.068 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Getting list of all future dates from calendar
+2021-05-24 16:06:00.104 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Got list of all future dates from calendar
+2021-05-24 16:06:00.104 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on tomorrow's date for check-in
+2021-05-24 16:06:00.249 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on tomorrow's date for check-in
+2021-05-24 16:06:00.250 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - CheckIn date is entered
+2021-05-24 16:06:00.250 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on check-out
+2021-05-24 16:06:00.809 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on check-out
+2021-05-24 16:06:00.809 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Getting list of all future dates from calendar
+2021-05-24 16:06:00.861 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Got list of all future dates from calendar
+2021-05-24 16:06:00.862 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on date five days after tomorrow for check-out
+2021-05-24 16:06:01.061 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on date five days after tomorrow for check-out
+2021-05-24 16:06:01.062 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - CheckOut date is entered
+2021-05-24 16:06:01.084 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Checking if 'Book Now' button is present
+2021-05-24 16:06:02.679 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Is 'Book Now' button present: true
+2021-05-24 16:06:03.238 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Checking if check-in date is set to tomorrow
+2021-05-24 16:06:03.283 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Check-in date is correct: false
+2021-05-24 16:06:04.077 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Checking if check-out date is set to 5 days after tomorrow
+2021-05-24 16:06:04.134 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Check-out date is correct: false
+2021-05-24 16:06:04.823 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Checking if check-in and check-out is correct in filters
+2021-05-24 16:06:05.082 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Is check-in and check-out is correct in filters: true
+2021-05-24 16:06:05.926 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on 'More' amenities
+2021-05-24 16:06:06.154 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on 'More' amenities
+2021-05-24 16:06:06.154 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on Elevator/Lift Access option
+2021-05-24 16:06:06.705 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on Elevator/Lift Access option
+2021-05-24 16:06:06.706 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Finding number of filters applied
+2021-05-24 16:06:06.734 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Is elevator selected: true
+2021-05-24 16:06:07.752 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on check-in calendar
+2021-05-24 16:06:11.020 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on check-in calendar
+2021-05-24 16:06:11.021 [main] DEBUG com.tripadvisor.pages.HolidayHomesPage - Clicking on past date
+2021-05-24 16:06:11.172 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Clicked on past date
+2021-05-24 16:06:11.187 [main] INFO  com.tripadvisor.pages.HolidayHomesPage - Is past date not selected: true

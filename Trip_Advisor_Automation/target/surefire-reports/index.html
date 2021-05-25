@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Surefire_suite" class="navigator-link">
+              <span class="suite-name border-failed">Surefire suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Surefire_suite" class="navigator-link ">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Surefire_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Surefire_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Surefire_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Surefire_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Surefire_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Surefire_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">21 methods, 1 failed,  4 skipped,  16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods failed suite-Surefire_suite"> (hide)</a> <!-- hide-methods failed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods failed suite-Surefire_suite"> (show)</a> <!-- show-methods failed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Surefire_suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.CruisesTest" class="method navigator-link" hash-for-method="verifyCruisesPageTitleTest">verifyCruisesPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods skipped suite-Surefire_suite"> (hide)</a> <!-- hide-methods skipped suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods skipped suite-Surefire_suite"> (show)</a> <!-- show-methods skipped suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Surefire_suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.CruisesTest" class="method navigator-link" hash-for-method="cruiseDetailsTest">cruiseDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.CruisesTest" class="method navigator-link" hash-for-method="verifyCruiseIsSelectedTest">verifyCruiseIsSelectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.CruisesTest" class="method navigator-link" hash-for-method="verifySearchNotActivatedTest">verifySearchNotActivatedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.CruisesTest" class="method navigator-link" hash-for-method="verifyShipDropDownNotActivatedTest">verifyShipDropDownNotActivatedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Surefire_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Surefire_suite" class="hide-methods passed suite-Surefire_suite"> (hide)</a> <!-- hide-methods passed suite-Surefire_suite -->
+                      <a href="#" panel-name="suite-Surefire_suite" class="show-methods passed suite-Surefire_suite"> (show)</a> <!-- show-methods passed suite-Surefire_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Surefire_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="bookNowButtonTest">bookNowButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="clearAllFiltersTest">clearAllFiltersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="holidayHomesTest(Nairobi, 4, Traveller Rating)">holidayHomesTest(Nairobi, 4, Traveller Rating)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="invalidLocationTest">invalidLocationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="showPricesButtonTest">showPricesButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyBookNowTest">verifyBookNowTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyCheckInOutFilterTest">verifyCheckInOutFilterTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyCheckInSelectedTest">verifyCheckInSelectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyCheckOutSelectedTest">verifyCheckOutSelectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyElevatorFilterAppliedTest">verifyElevatorFilterAppliedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyHotelCheckInTest">verifyHotelCheckInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyHotelCheckOutTest">verifyHotelCheckOutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyHotelElevatorTest">verifyHotelElevatorTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyHotelGuestsTest(Nairobi, 4, Traveller Rating)">verifyHotelGuestsTest(Nairobi, 4, Traveller Rating)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifyPastDateNotSelectedTest">verifyPastDateNotSelectedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Surefire_suite" title="com.tripadvisor.tests.HolidayHomesTest" class="method navigator-link" hash-for-method="verifySearchLocationTitleTest(Nairobi, 4, Traveller Rating)">verifySearchLocationTitleTest(Nairobi, 4, Traveller Rating)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Surefire_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Surefire_suite" class="panel Surefire_suite">
+          <div class="suite-Surefire_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.tripadvisor.tests.CruisesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCruisesPageTitleTest">
+                  </a> <!-- verifyCruisesPageTitleTest -->
+                  <span class="method-name">verifyCruisesPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Cruises - Cheap Cruise Holidays: 2020 Destinations &amp; Ports - Tripadvisor] but found [Cruises - Cheap Cruise Holidays: 2021 Destinations &amp; Ports - Tripadvisor]
+	at com.tripadvisor.tests.CruisesTest.verifyCruisesPageTitleTest(CruisesTest.java:51)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-failed -->
+          <div class="suite-Surefire_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.tripadvisor.tests.CruisesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cruiseDetailsTest">
+                  </a> <!-- cruiseDetailsTest -->
+                  <span class="method-name">cruiseDetailsTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CruisesTest.cruiseDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.tripadvisor.tests.CruisesTest@53142455] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCruiseIsSelectedTest">
+                  </a> <!-- verifyCruiseIsSelectedTest -->
+                  <span class="method-name">verifyCruiseIsSelectedTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CruisesTest.verifyCruiseIsSelectedTest(java.lang.String, java.lang.String)[pri:0, instance:com.tripadvisor.tests.CruisesTest@53142455] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchNotActivatedTest">
+                  </a> <!-- verifySearchNotActivatedTest -->
+                  <span class="method-name">verifySearchNotActivatedTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CruisesTest.verifySearchNotActivatedTest()[pri:0, instance:com.tripadvisor.tests.CruisesTest@53142455] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyShipDropDownNotActivatedTest">
+                  </a> <!-- verifyShipDropDownNotActivatedTest -->
+                  <span class="method-name">verifyShipDropDownNotActivatedTest</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CruisesTest.verifyShipDropDownNotActivatedTest()[pri:0, instance:com.tripadvisor.tests.CruisesTest@53142455] depends on not successfully finished methods
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-skipped -->
+          <div class="suite-Surefire_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.tripadvisor.tests.HolidayHomesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="bookNowButtonTest">
+                  </a> <!-- bookNowButtonTest -->
+                  <span class="method-name">bookNowButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearAllFiltersTest">
+                  </a> <!-- clearAllFiltersTest -->
+                  <span class="method-name">clearAllFiltersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="holidayHomesTest(Nairobi, 4, Traveller Rating)">
+                  </a> <!-- holidayHomesTest(Nairobi, 4, Traveller Rating) -->
+                  <span class="method-name">holidayHomesTest</span>
+                  <span class="parameters">(Nairobi, 4, Traveller Rating)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLocationTest">
+                  </a> <!-- invalidLocationTest -->
+                  <span class="method-name">invalidLocationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="showPricesButtonTest">
+                  </a> <!-- showPricesButtonTest -->
+                  <span class="method-name">showPricesButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBookNowTest">
+                  </a> <!-- verifyBookNowTest -->
+                  <span class="method-name">verifyBookNowTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckInOutFilterTest">
+                  </a> <!-- verifyCheckInOutFilterTest -->
+                  <span class="method-name">verifyCheckInOutFilterTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckInSelectedTest">
+                  </a> <!-- verifyCheckInSelectedTest -->
+                  <span class="method-name">verifyCheckInSelectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckOutSelectedTest">
+                  </a> <!-- verifyCheckOutSelectedTest -->
+                  <span class="method-name">verifyCheckOutSelectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyElevatorFilterAppliedTest">
+                  </a> <!-- verifyElevatorFilterAppliedTest -->
+                  <span class="method-name">verifyElevatorFilterAppliedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHotelCheckInTest">
+                  </a> <!-- verifyHotelCheckInTest -->
+                  <span class="method-name">verifyHotelCheckInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHotelCheckOutTest">
+                  </a> <!-- verifyHotelCheckOutTest -->
+                  <span class="method-name">verifyHotelCheckOutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHotelElevatorTest">
+                  </a> <!-- verifyHotelElevatorTest -->
+                  <span class="method-name">verifyHotelElevatorTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyHotelGuestsTest(Nairobi, 4, Traveller Rating)">
+                  </a> <!-- verifyHotelGuestsTest(Nairobi, 4, Traveller Rating) -->
+                  <span class="method-name">verifyHotelGuestsTest</span>
+                  <span class="parameters">(Nairobi, 4, Traveller Rating)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPastDateNotSelectedTest">
+                  </a> <!-- verifyPastDateNotSelectedTest -->
+                  <span class="method-name">verifyPastDateNotSelectedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchLocationTitleTest(Nairobi, 4, Traveller Rating)">
+                  </a> <!-- verifySearchLocationTitleTest(Nairobi, 4, Traveller Rating) -->
+                  <span class="method-name">verifySearchLocationTitleTest</span>
+                  <span class="parameters">(Nairobi, 4, Traveller Rating)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Surefire_suite-class-passed -->
+        </div> <!-- panel Surefire_suite -->
+        <div panel-name="test-xml-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; name=&quot;Surefire suite&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;1&quot; name=&quot;Surefire test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.tripadvisor.tests.CruisesTest&quot;/&gt;
+      &lt;class name=&quot;com.tripadvisor.tests.HolidayHomesTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Surefire test --&gt;
+&lt;/suite&gt; &lt;!-- Surefire suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Surefire test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Surefire_suite');
+function tableData_Surefire_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(21);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'holidayHomesTest')
+data.setCell(0, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(0, 3, 23383);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyCruisesPageTitleTest')
+data.setCell(1, 2, 'com.tripadvisor.tests.CruisesTest')
+data.setCell(1, 3, 23231);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'invalidLocationTest')
+data.setCell(2, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(2, 3, 11576);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySearchLocationTitleTest')
+data.setCell(3, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(3, 3, 7958);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyBookNowTest')
+data.setCell(4, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(4, 3, 5825);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'bookNowButtonTest')
+data.setCell(5, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(5, 3, 3814);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyPastDateNotSelectedTest')
+data.setCell(6, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(6, 3, 3435);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clearAllFiltersTest')
+data.setCell(7, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(7, 3, 837);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyElevatorFilterAppliedTest')
+data.setCell(8, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(8, 3, 809);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyHotelElevatorTest')
+data.setCell(9, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(9, 3, 491);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyCheckInOutFilterTest')
+data.setCell(10, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(10, 3, 261);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyHotelCheckInTest')
+data.setCell(11, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(11, 3, 59);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyCheckOutSelectedTest')
+data.setCell(12, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(12, 3, 58);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyHotelCheckOutTest')
+data.setCell(13, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(13, 3, 56);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyHotelGuestsTest')
+data.setCell(14, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(14, 3, 48);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyCheckInSelectedTest')
+data.setCell(15, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(15, 3, 46);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'showPricesButtonTest')
+data.setCell(16, 2, 'com.tripadvisor.tests.HolidayHomesTest')
+data.setCell(16, 3, 23);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifySearchNotActivatedTest')
+data.setCell(17, 2, 'com.tripadvisor.tests.CruisesTest')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyCruiseIsSelectedTest')
+data.setCell(18, 2, 'com.tripadvisor.tests.CruisesTest')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyShipDropDownNotActivatedTest')
+data.setCell(19, 2, 'com.tripadvisor.tests.CruisesTest')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'cruiseDetailsTest')
+data.setCell(20, 2, 'com.tripadvisor.tests.CruisesTest')
+data.setCell(20, 3, 0);
+window.suiteTableData['Surefire_suite']= { tableData: data, tableDiv: 'times-div-Surefire_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Surefire_suite">
+              </div> <!-- times-div-Surefire_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Surefire suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Surefire_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tripadvisor.tests.CruisesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCruisesPageTitleTest</span>
+                <span class="method-start">4838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">29786 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.tripadvisor.tests.HolidayHomesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">30733 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">invalidLocationTest</span>
+                <span class="method-start">34893 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchLocationTitleTest(Nairobi, 4, Traveller Rating)</span>
+                <span class="method-start">48517 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">holidayHomesTest(Nairobi, 4, Traveller Rating)</span>
+                <span class="method-start">56813 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyBookNowTest</span>
+                <span class="method-start">81327 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHotelCheckInTest</span>
+                <span class="method-start">88297 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHotelCheckOutTest</span>
+                <span class="method-start">89443 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHotelGuestsTest(Nairobi, 4, Traveller Rating)</span>
+                <span class="method-start">90501 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyHotelElevatorTest</span>
+                <span class="method-start">91500 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clearAllFiltersTest</span>
+                <span class="method-start">93075 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">showPricesButtonTest</span>
+                <span class="method-start">94837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">bookNowButtonTest</span>
+                <span class="method-start">95890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckInSelectedTest</span>
+                <span class="method-start">100262 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckOutSelectedTest</span>
+                <span class="method-start">101101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckInOutFilterTest</span>
+                <span class="method-start">101846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyElevatorFilterAppliedTest</span>
+                <span class="method-start">102950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyPastDateNotSelectedTest</span>
+                <span class="method-start">104776 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">108883 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

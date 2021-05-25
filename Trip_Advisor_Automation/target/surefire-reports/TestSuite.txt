@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 1, Errors: 0, Skipped: 4, Time elapsed: 111.783 s <<< FAILURE! - in TestSuite
+verifyCruisesPageTitleTest(com.tripadvisor.tests.CruisesTest)  Time elapsed: 24.935 s  <<< FAILURE!
+java.lang.AssertionError: expected [Cruises - Cheap Cruise Holidays: 2020 Destinations & Ports - Tripadvisor] but found [Cruises - Cheap Cruise Holidays: 2021 Destinations & Ports - Tripadvisor]
+	at com.tripadvisor.tests.CruisesTest.verifyCruisesPageTitleTest(CruisesTest.java:51)
+

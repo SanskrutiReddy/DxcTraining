@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="111.783" tests="21" errors="0" skipped="4" failures="1">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sansk\Maven\Trip_Advisor_Automation\target\test-classes;C:\Users\sansk\Maven\Trip_Advisor_Automation\target\classes;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sansk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sansk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sansk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sansk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sansk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sansk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sansk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sansk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sansk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sansk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sansk\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\sansk\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sansk\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\sansk\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\sansk\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sansk\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sansk\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sansk\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sansk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\sansk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\sansk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sansk\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\sansk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sansk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sansk\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\sansk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sansk\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\sansk\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\sansk\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\sansk\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\sansk\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\sansk\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\sansk\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\sansk\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\sansk\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sansk\AppData\Local\Temp\surefire7715877621223519433\surefirebooter13131256435321158004.jar C:\Users\sansk\AppData\Local\Temp\surefire7715877621223519433 2021-05-24T16-04-20_956-jvmRun1 surefire16683040572148286274tmp surefire_04812122279564681222tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\sansk\Maven\Trip_Advisor_Automation\target\test-classes;C:\Users\sansk\Maven\Trip_Advisor_Automation\target\classes;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sansk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sansk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sansk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sansk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sansk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sansk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sansk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sansk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sansk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sansk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sansk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sansk\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\sansk\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\sansk\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\sansk\.m2\repository\com\aventstack\extentreports\4.0.9\extentreports-4.0.9.jar;C:\Users\sansk\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\sansk\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\sansk\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\sansk\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\sansk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\sansk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\sansk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sansk\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\sansk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sansk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sansk\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\sansk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sansk\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\sansk\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\sansk\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\sansk\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\sansk\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\sansk\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\sansk\.m2\repository\org\apache\logging\log4j\log4j-core\2.13.2\log4j-core-2.13.2.jar;C:\Users\sansk\.m2\repository\org\apache\logging\log4j\log4j-api\2.13.2\log4j-api-2.13.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sansk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-01-19"/>
+    <property name="java.home" value="C:\Users\sansk\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sansk\Maven\Trip_Advisor_Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\sansk\AppData\Local\Temp\surefire7715877621223519433\surefirebooter13131256435321158004.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="user.name" value="sansk"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sansk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sansk\AppData\Local\Temp\"/>
+    <property name="java.version" value="15.0.2"/>
+    <property name="user.dir" value="C:\Users\sansk\Maven\Trip_Advisor_Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Users\sansk\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/sansk/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin/server;C:/Users/sansk/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.2.v20210201-0955/jre/bin;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Users\sansk\AppData\Local\Temp\Temp1_WINDOWS.X64_193000_db_home.zip\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\sansk\Downloads\allure-2.14.0\allure-2.14.0\bin;C:\Users\sansk\Downloads\allure-2.14.0\allure-2.14.0;Z:\apache-maven-3.8.1-bin\apache-maven-3.8.1\bin;Z:\apache-maven-3.8.1-bin\apache-maven-3.8.1;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\Program Files\Git;&quot;C:\Users\sansk\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_131\bin&quot;;C:\Users\sansk\AppData\Local\atom\bin;;C:\Windows\system32;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15.0.2+7-27"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="verifyCruisesPageTitleTest" classname="com.tripadvisor.tests.CruisesTest" time="24.935">
+    <failure message="expected [Cruises - Cheap Cruise Holidays: 2020 Destinations &amp; Ports - Tripadvisor] but found [Cruises - Cheap Cruise Holidays: 2021 Destinations &amp; Ports - Tripadvisor]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Cruises - Cheap Cruise Holidays: 2020 Destinations & Ports - Tripadvisor] but found [Cruises - Cheap Cruise Holidays: 2021 Destinations & Ports - Tripadvisor]
+	at com.tripadvisor.tests.CruisesTest.verifyCruisesPageTitleTest(CruisesTest.java:51)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 19125
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1621852464.841][WARNING]: This version of ChromeDriver has not been tested with Chrome version 90.
+May 24, 2021 4:04:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifySearchNotActivatedTest" classname="com.tripadvisor.tests.CruisesTest" time="0">
+    <skipped message="Method CruisesTest.verifySearchNotActivatedTest()[pri:0, instance:com.tripadvisor.tests.CruisesTest@53142455] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyShipDropDownNotActivatedTest" classname="com.tripadvisor.tests.CruisesTest" time="0">
+    <skipped message="Method CruisesTest.verifyShipDropDownNotActivatedTest()[pri:0, instance:com.tripadvisor.tests.CruisesTest@53142455] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="verifyCruiseIsSelectedTest" classname="com.tripadvisor.tests.CruisesTest" time="0">
+    <skipped message="Method CruisesTest.verifyCruiseIsSelectedTest(java.lang.String, java.lang.String)[pri:0, instance:com.tripadvisor.tests.CruisesTest@53142455] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="cruiseDetailsTest" classname="com.tripadvisor.tests.CruisesTest" time="0">
+    <skipped message="Method CruisesTest.cruiseDetailsTest(java.lang.String, java.lang.String)[pri:0, instance:com.tripadvisor.tests.CruisesTest@53142455] depends on not successfully finished methods"/>
+  </testcase>
+  <testcase name="invalidLocationTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="12.734"/>
+  <testcase name="verifySearchLocationTitleTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="8.254"/>
+  <testcase name="holidayHomesTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="24.51"/>
+  <testcase name="verifyBookNowTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="6.969"/>
+  <testcase name="verifyHotelCheckInTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="1.145"/>
+  <testcase name="verifyHotelCheckOutTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="1.029"/>
+  <testcase name="verifyHotelGuestsTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0.998"/>
+  <testcase name="verifyHotelElevatorTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="1.574"/>
+  <testcase name="clearAllFiltersTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="1.761"/>
+  <testcase name="showPricesButtonTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="1.052"/>
+  <testcase name="bookNowButtonTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="4.372"/>
+  <testcase name="verifyCheckInSelectedTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0.838"/>
+  <testcase name="verifyCheckOutSelectedTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="0.745"/>
+  <testcase name="verifyCheckInOutFilterTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="1.102"/>
+  <testcase name="verifyElevatorFilterAppliedTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="1.825"/>
+  <testcase name="verifyPastDateNotSelectedTest" classname="com.tripadvisor.tests.HolidayHomesTest" time="4.108"/>
+</testsuite>
